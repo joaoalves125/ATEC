@@ -12,7 +12,7 @@ public class EX07 {
         preco2=input.nextDouble();
         System.out.print("\nPreço do terceiro artigo: ");
         preco3=input.nextDouble();
-        total=(preco1+preco2+preco3)*0.10;
+        total=(preco1+preco2+preco3)*0.90;
 
         System.out.print("\nTotal: "+total);
     }
