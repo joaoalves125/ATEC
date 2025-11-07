@@ -16,7 +16,7 @@ public class Ex13 {
         switch(escolha){
         case "AM": System.out.println(horas+":"+minutos+" AM");
         break;
-        case "PM":soma=horas-10;
+        case "PM":soma=horas-12;
         System.out.print(soma+":"+minutos+" PM");
         break;
             default: System.out.print("erro");
