@@ -14,17 +14,20 @@ public class Ex14 {
         numero3 = input.nextInt();
         if (numero1 < numero2 && numero2 < numero3) {
             System.out.println(""+numero1+"\n" + numero2+"\n" + numero3);
-        } else if(numero2 < numero1 && numero1 < numero3){
-            System.out.println(""+numero2+ "\n"+ numero1 +"\n"+ numero3);
-        }else if(numero3<numero2&&numero2<numero1){
-            System.out.println(""+numero3+ "\n"+ numero2 +"\n"+ numero1);
-        }else if (numero1<numero3&&numero3<numero2){
+        } else if(numero1 < numero3 && numero3 < numero2){
             System.out.println(""+numero1+ "\n"+ numero3 +"\n"+ numero2);
-    }
+        }else if(numero2<numero1&&numero1<numero3){
+            System.out.println(""+numero2+ "\n"+ numero1 +"\n"+ numero3);
+        }else if (numero2<numero3&&numero3<numero1){
+            System.out.println(""+numero2+ "\n"+ numero3 +"\n"+ numero1);
+        }else if(numero3<numero2&&numero2<numero1){
+            System.out.print(""+numero3+ "\n"+ numero2 +"\n"+ numero1);
+        }else {
+            System.out.print(""+numero3+""+numero1+""+numero2);
         }
 
 
 
-
+    }
     }
 
