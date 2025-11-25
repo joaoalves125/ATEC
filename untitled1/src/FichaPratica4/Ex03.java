@@ -1,8 +1,8 @@
-package FichaPratica3;
+package FichaPratica4;
 
 import java.util.Scanner;
 
-public class Ex13 {
+public class Ex03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num1,num2;
@@ -18,3 +18,53 @@ public class Ex13 {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
